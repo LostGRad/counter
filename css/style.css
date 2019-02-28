@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+*{
+  margin:  0;
+  padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 500px;
+
+}
+a{
+    text-decoration: none;
+}
+.layout {
+    margin-top: 5%;
+}
+
+.flowers_box{
+    background: url(../img/flowers-box.png) center center no-repeat;
+    width: 34%;
+    float: left;
+    height: 320px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cases{
+    background: url(../img/cases.png) center center no-repeat;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 15%;
+    float: right;
+    height: 240px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.day__counter{
+    position: fixed;
+    width: 33%;
+    height: 100%;
+    margin: 0 34% 0 33%;
+}
+.counter__content{
+    margin: 5% auto;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.counter{
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 1.8%;
+}
+.day__counter h2{
+    padding-top: 10%;
+    font-weight: 300;
+    font-size: 27pt;
+    color: #000000;
+
+}
+.day__counter h3{
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 21pt;
+    color: #90b308;
+}
+.counter__content .counter__container h6{
+    font-size: 32pt;
+    display: inline;
+    border-radius: 5px;
+    background: #f76daf;
+    color: #ffffff;
+
+}
+.counter__content .counter__container .counter__text p{
+    font-size: 12.61pt;
+}
+.counter__content p{
+    background: #ffffff;
+    color: #000;
+}
+/*MEDIA*/
+@media screen and (max-width: 1360px) {
+    .cases{
+        margin-right: 9.5%;
+    }
+    .flowers_box{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .cases{
+        margin-right: 5%;
+        height: 200px;
+    }
+    .flowers_box{
+        height: 260px;
+    }
+    .counter__content .counter__container h6{
+        font-size: 32px;
+        display: inline;
+        border-radius: 5px;
+        background: #f76daf;
+        color: #ffffff;
+
+    }
+    .day__counter h3{
+        padding-top: 5%;
+        font-weight: 700;
+        font-size: 21px;
+        color: #90b308;
+    }
+    .counter__content .counter__container .counter__text p{
+        font-size: 12px;
+    }
+    .counter{
+            margin-right: 5px;
+    }
+    .day__counter{
+        position: fixed;
+        width: 30%;
+        height: 100%;
+        margin: 0 34% 0 33%;
+    }
+}
+@media screen and (max-width: 1079px) {
+    body{
+        height: 450px;
+
+    }
+    .cases{
+        margin-right: 2%;
+        height: 180px;
+    }
+    .flowers_box{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 999px) {
+    body{
+        height: 400px;
+
+    }
+}
